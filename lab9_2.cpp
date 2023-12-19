@@ -3,11 +3,11 @@ using namespace std;
 
 //Write the function printO() here
 
-int printO(int M,int N){
+int printO(int M, int N){
 	if(M>0&&N>0){
-		for (int i =0; i <N; i++)
+		for (int i =0; i <M; i++)
 		{
-			for (int j = 0; j < M; j++)
+			for (int j = 0; j < N; j++)
 			{
 				cout << "O";
 			}
@@ -17,6 +17,7 @@ int printO(int M,int N){
 	}else{
 		cout << "Invalid input";
 	}
+	return 0;
 }
 
 int main(){
